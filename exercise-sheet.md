@@ -8,17 +8,20 @@ The task is to update the file utilising forks, branches, and local changes prop
 
 You will need a GitHub account if you don't already have one.
 
-* Make an issue on the central repo about your data being missing.
-* Fork the central repo and make a local copy (your choice of method).
+Steps:
+
+* Make an issue on the central repo about your data being missing;
+* Fork the central repo (to your own account) and clone a local copy to your machine;
 * Make a new branch (e.g., using `git branch name`) for your changes.
-* Make your local updates to the file and split your change into two commits by using `git add -p`
+* Make your local updates to the file.
 
 Use this as an opportunity to check you can also use
  `git reset` (i.e., stage a change then restore it to the index).
 
-Create two suitable commits referencing your original issue, one for the names and one for the food (with the last __closing it__).
+Create one or more suitable commits referencing your original issue.
 
 If you do something wrong reset the commit and try again before pushing.
 
-* Push and make a PR to the central repo. Include a helpful PR message.
-
+* Push to your fork.
+* Make a PR to the central repo. Include a helpful PR message.
+* Handle any conflicts via the GitHub interface
